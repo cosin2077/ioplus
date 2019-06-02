@@ -10,7 +10,7 @@ class MyNav extends Component{
 				<Link to="/"><span>首页</span></Link>
 				</li>
 				<li>
-				<a href="javascript:alert('ioplus.top')"><span>关于</span></a>
+				<a href="/"><span>关于</span></a>
 				</li>
 			</ul>
 			)

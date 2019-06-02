@@ -53,7 +53,7 @@ class MyContent extends Component{
 				showLoading:true
 			});
 			this.timer = setTimeout(()=>{
-				if(this.state.showLoading == true){
+				if(this.state.showLoading === true){
 					this.setState({
 						showLoading:false
 					})
